@@ -96,5 +96,26 @@ html {
 
 .kontak {
   padding: 10px;
-  
+}
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Handpone */
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
 }
