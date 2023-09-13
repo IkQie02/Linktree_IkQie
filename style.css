@@ -68,7 +68,7 @@ html {
 
 .Footer {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 3px;
 }
 
 .Footer i {
@@ -104,6 +104,9 @@ html {
   html {
     font-size: 75%;
   }
+  Link a {
+    width: 700px;
+  }
 }
 
 /* Handpone */
@@ -111,11 +114,17 @@ html {
   html {
     font-size: 60%;
   }
+  Link a {
+    width: 300px;
+  }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
   html {
     font-size: 65%;
+  }
+  Link a {
+    width: 500px;
   }
 }
